@@ -1,17 +1,28 @@
-#h1 {
-    width: 200px;
-    padding: 40px;
+body {
+    background-color: black;
+}
+
+h1 {
+    color: limegreen;
+    text-align: center;
+    font-size: em;
+}
+
+#start-botton {
     color: limegreen;
     margin: auto;
 }
 
-div {
+#start {
     display: flex;
-    
     border: 2px solid limegreen;
-    margin: 10px 10px 10px 10px;
+    width: 300px;
+    height: 110px;
+    margin-top: 40em;
+    margin-left: 45em;
+    
 }
 
-body {
-    background-color: black;
+div:hover {
+    background-color: rgba(50, 205, 50, 0.445);
 }
