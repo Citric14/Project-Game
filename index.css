@@ -5,24 +5,31 @@ body {
 h1 {
     color: limegreen;
     text-align: center;
-    font-size: em;
+    font-size: 5em;
 }
 
 #start-botton {
     color: limegreen;
-    margin: auto;
-}
-
-#start {
-    display: flex;
+    text-decoration: none;
     border: 2px solid limegreen;
     width: 300px;
     height: 110px;
-    margin-top: 40em;
-    margin-left: 45em;
+    text-align: center;
     
+}
+
+#start {
+    margin-top: 40em;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#botton {
+    font-size: 2em;
 }
 
 div:hover {
     background-color: rgba(50, 205, 50, 0.445);
+    transition-duration: 1s ;
 }
