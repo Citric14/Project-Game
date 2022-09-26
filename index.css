@@ -29,7 +29,29 @@ h1 {
     font-size: 2em;
 }
 
-div:hover {
+#start-botton:hover {
     background-color: rgba(50, 205, 50, 0.445);
     transition-duration: 1s ;
+}
+
+#table {
+    display: flex;
+    justify-content: center;
+    
+}
+
+table {
+    border: 1px solid limegreen;
+}
+
+th {
+    font-size: 3em;
+    color: limegreen;
+    border: 1px solid limegreen;
+    padding: 14px;
+}
+
+th:hover {
+    background-color: rgba(50, 205, 50, 0.445);
+    transition-duration: .5s;
 }
