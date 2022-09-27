@@ -15,7 +15,6 @@ h1 {
     width: 300px;
     height: 110px;
     text-align: center;
-    
 }
 
 #start {
@@ -25,33 +24,39 @@ h1 {
     
 }
 
-#botton {
+#button {
     font-size: 2em;
+    color: limegreen;
+    background-color: black;
+    
 }
 
 #start-botton:hover {
     background-color: rgba(50, 205, 50, 0.445);
     transition-duration: 1s ;
+    
 }
 
 #table {
     display: flex;
     justify-content: center;
-    
-}
-
-table {
-    border: 1px solid limegreen;
-}
-
-th {
+    color: black;
     font-size: 3em;
-    color: limegreen;
-    border: 1px solid limegreen;
-    padding: 14px;
+    /* color: limegreen; */
+    width: auto;
+    height: auto;
+}
+
+table:hover {
+    /* border: 1px solid limegreen; */
 }
 
 th:hover {
+    /* font-size: 3em; */
+    color: limegreen;
+    border: 1px solid limegreen;
+    /* padding: 14px; */
     background-color: rgba(50, 205, 50, 0.445);
     transition-duration: .5s;
 }
+
