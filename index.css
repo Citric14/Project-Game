@@ -47,9 +47,9 @@ h1 {
     height: auto;
 }
 
-table:hover {
-    /* border: 1px solid limegreen; */
-}
+ /* table:hover {
+     border: 1px solid limegreen; 
+} */
 
 th:hover {
     /* font-size: 3em; */
