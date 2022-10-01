@@ -8,57 +8,13 @@ h1 {
     font-size: 5em;
 }
 
-/* #start-botton {
+h2 {
     color: limegreen;
-    text-decoration: none;
-    border: 2px solid limegreen;
-    width: 300px;
-    height: 110px;
     text-align: center;
+    font-size: 2.5em;
+    height: 50px;
 }
 
-#start {
-    margin-top: 40em;
-    display: flex;
-    justify-content: center;
-    
-}
-
-#button {
-    font-size: 2em;
-    color: limegreen;
-    background-color: black;
-    
-}
-
-#start-botton:hover {
-    background-color: rgba(50, 205, 50, 0.445);
-    transition-duration: 1s ;
-    
-}
-
-#table {
-    display: flex;
-    justify-content: center;
-    color: black;
-    font-size: 3em;
-    color: limegreen;
-    width: auto;
-    height: auto;
-}
-
- table:hover {
-     border: 1px solid limegreen; 
-}
-
-th:hover {
-    font-size: 3em;
-    color: limegreen;
-    border: 1px solid limegreen;
-    padding: 14px;
-    background-color: rgba(50, 205, 50, 0.445);
-    transition-duration: .5s;
-} */
 #whole {
     display: flex;
     justify-content: center;
@@ -78,10 +34,11 @@ th:hover {
     border: 1px solid red;
     height: 75px;
     width: 20px;
+}
+
+.animation {
     animation-name: jump;
     animation-duration: .5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
 }
 
 #block {
@@ -102,7 +59,8 @@ th:hover {
 
 @keyframes jump {
     0% {transform: translateY(0px);}
-    50% {transform: translateY(-50px);}
+    30% {transform: translateY(-50px);}
+    70% {transform: translateY(-50px);}
     100% {transform: translateY(0px);}
 }
 
