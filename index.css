@@ -1,6 +1,6 @@
-/* body {
+body {
     background-color: black;
-} */
+}
 
 h1 {
     color: limegreen;
@@ -8,7 +8,7 @@ h1 {
     font-size: 5em;
 }
 
-#start-botton {
+/* #start-botton {
     color: limegreen;
     text-decoration: none;
     border: 2px solid limegreen;
@@ -42,21 +42,58 @@ h1 {
     justify-content: center;
     color: black;
     font-size: 3em;
-    /* color: limegreen; */
+    color: limegreen;
     width: auto;
     height: auto;
 }
 
- /* table:hover {
+ table:hover {
      border: 1px solid limegreen; 
-} */
+}
 
 th:hover {
-    /* font-size: 3em; */
+    font-size: 3em;
     color: limegreen;
     border: 1px solid limegreen;
-    /* padding: 14px; */
+    padding: 14px;
     background-color: rgba(50, 205, 50, 0.445);
     transition-duration: .5s;
+} */
+#whole {
+    display: flex;
+    justify-content: center;
+}
+
+#game {
+    border: 2px solid limegreen;
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#character {
+    background-color: red;
+    border: 1px solid red;
+    height: 75px;
+    width: 20px;
+    
+}
+
+#block {
+    background-color: cyan;
+    border: 2px solid cyan;
+    height: 25px;
+    width: 25px;
+    animation-name: block;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes block {
+    0% {transform: translateX(0px);}
+    100% {transform: translateX(-580px);}
 }
 
