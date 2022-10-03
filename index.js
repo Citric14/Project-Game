@@ -11,18 +11,18 @@ function jump() {
     }, 500)
 }
 //set a collision
-character = { x: 5, y: 5, width: 50, height: 120}
-block = { x: 5, y: 5, width: 25, height: 25}
+// character = { x: 5, y: 5, width: 50, height: 120}
+// block = { x: 5, y: 5, width: 25, height: 25}
 
-let checkIfLost = setInterval(function(){
-    if( character.x < block.x + block.width &&
-        character.x + character.width > block.xx &&
-        character.y < block.y + block.height &&
-        character.y + character.height > block.y) {
-            alert("Gon didn't jump")
-        }
+// let checkIfLost = setInterval(function(){
+//     if( character.x < block.x + block.width &&
+//         character.x + character.width > block.xx &&
+//         character.y < block.y + block.height &&
+//         character.y + character.height > block.y) {
+//             alert("Gon didn't jump")
+//         }
     
-},10)
+// },10)
 //make a counter
 let counter = document.getElementById("counter")
 
