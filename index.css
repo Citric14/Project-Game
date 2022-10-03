@@ -29,11 +29,13 @@ h2 {
     align-items: end;
 }
 
+
+
 #character {
-    background-color: red;
-    border: 1px solid red;
-    height: 75px;
-    width: 20px;
+    /* background-color: red;
+    border: 1px solid red; */
+    height: 120px;
+    width: 50px;
 }
 
 .animation {
@@ -42,8 +44,8 @@ h2 {
 }
 
 #block {
-    background-color: cyan;
-    border: 2px solid cyan;
+    /* background-color: cyan;
+    border: 2px solid cyan; */
     height: 25px;
     width: 25px;
     animation-name: block;
@@ -54,13 +56,13 @@ h2 {
 
 @keyframes block {
     0% {transform: translateX(0px);}
-    100% {transform: translateX(-580px);}
+    100% {transform: translateX(-290px);}
 }
 
 @keyframes jump {
     0% {transform: translateY(0px);}
-    30% {transform: translateY(-50px);}
-    70% {transform: translateY(-50px);}
+    30% {transform: translateY(-55px);}
+    70% {transform: translateY(-55px);}
     100% {transform: translateY(0px);}
 }
 
