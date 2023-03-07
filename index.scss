@@ -1,0 +1,27 @@
+$primary-color: limegreen;
+$backgound-color: black;
+$text-align: center;
+$font: Helvetica;
+
+body {
+    background-color: $backgound-color;
+    h1 {
+        color: $primary-color;
+        text-align: $text-align;
+        font-family: $font;
+    }
+
+    h2 {
+        color: $primary-color;
+        text-align: $text-align;
+        font-family: $font;
+    }
+
+    p {
+        color: $primary-color;
+        text-align: $text-align;
+        font-family: $font;
+    }
+}
+
+
